@@ -21,7 +21,7 @@ def get_hg_revision(path=None):
 	rev = None
 	if path is None:
 		path = os.path.abspath(os.path.join(myuni.__path__[0], '..'))
-	print path
+	
 	try:
 		import sys
 		import StringIO
