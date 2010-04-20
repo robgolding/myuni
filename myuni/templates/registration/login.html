@@ -1,0 +1,30 @@
+{% extends 'base.notabs.html' %}
+
+{% block title %}Dashboard &bull; {{block.super}}{% endblock title %}
+
+{% block page-title-inner %}Login{% endblock page-title-inner %}
+
+{% block header-block %}{% endblock header-block %}
+
+{% block content-block %}
+	<div class="block">
+		<form action="" method="post">
+			<input type="hidden" name="next" value="{% url myuni_dashboard %}" />
+			{% for field in form %}
+				{% if field.is_hidden %}
+					{{field}}
+				{% else %}
+					<div class="field-wrapper">
+						<div class="label">{{field.label_tag}}</div>
+						<div class="field">{{field}}</div>
+					</div>
+				{% endif %}
+			{% endfor %}
+			{% spaceless %}
+				<input type="submit" value="Login" /> or 
+				<a href="{% url index %}">
+				Cancel and go back</a>
+			{% endspaceless %}
+		</form>
+	</div>
+{% endblock content-block %}

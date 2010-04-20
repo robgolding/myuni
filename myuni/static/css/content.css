@@ -1,0 +1,63 @@
+
+	/*
+	#	myUni
+	#	Copyright 2009-2010 Ben Jenkinson
+	#	http://benjenkinson.com/
+	#
+	#	Content
+	#
+	*/
+
+
+	/* Navigation Container */
+
+	#content-container {
+		display:block;
+	}
+
+	#content {
+		position: relative;
+		width: 950px;
+		margin: 20px auto;
+	}
+	
+	
+	
+	h2 {
+		margin:10px 0px;
+		line-height:1.5em;
+		font-size:24px;
+		font-weight:bold;
+		text-shadow:#fff 0px 1px 0px;
+		color: #bbb;
+	}
+	
+	
+	h3 {
+		font-size:18px;
+		font-weight:bold;
+	}
+	
+	.block {
+		background:#fff;
+		border:1px solid #ccc;
+		-webkit-border-radius: 8px;
+		-moz-border-radius: 8px;
+		border-radius: 8px;
+		margin:10px 0px;
+		padding-top:20px;
+		padding-bottom:8px;
+	}
+	
+	
+	h2, h3, h4, h5, p, .block div, ul {
+		margin:0px 20px 12px 20px;
+	}
+	hr {
+		padding-top:8px;
+		margin-bottom:20px;
+		border:none;
+		border-bottom:1px solid #ccc;
+	}
+	
+	

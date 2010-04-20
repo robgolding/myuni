@@ -1,0 +1,54 @@
+
+	/*
+	#	myUni
+	#	Copyright 2009-2010 Ben Jenkinson
+	#	http://benjenkinson.com/
+	#
+	#	Global Stylesheet, for things that appear everywhere
+	#
+	*/
+
+	html {
+		height: 100%;}
+	body {
+		display: block;
+		width: 100%;
+		height: 100%;
+	    background: #e8e8e8;
+		-webkit-text-stroke:1px transparent;
+		-webkit-text-stroke: 0 black;
+		font-family:'Helvetica Neue', Helvetica, Arial, sans-serif;
+		font-size:14px;
+		line-height:1.4em;
+		color:#282828;}
+
+	strong{
+	    font-weight: bold;}
+
+	em {
+		font-style: italic;}
+
+	a:link,
+	a:visited {
+		text-decoration: none;}
+	a:hover,
+	a:active {}
+
+	abbr, acronym {border:none;}
+	abbr[title], acronym[title] {border-bottom:1px dotted #888;}
+	abbr[title]:hover, acronym[title]:hover {cursor:help !important;}
+	a:hover abbr, a:hover acronym {border:none;}
+	
+	.clear {
+		clear: both;
+		display: block;
+		overflow: hidden;
+		width: 0;
+		height: 0;}
+	.clearfix:after {
+		content: ".";
+		display: block;
+		height: 0;
+		clear: both;
+		visibility: hidden;}
+

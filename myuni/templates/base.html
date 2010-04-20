@@ -1,0 +1,72 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+	<head>
+		<title>{% block title %}myUni{% endblock title %}</title>
+
+		<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+		<meta http-equiv="Content-Language" content="en" />
+
+		<meta name="Author" content="" />
+		<meta name="Copyright" content="" />
+		<meta name="Description" content="" />
+		<meta name="Keywords" content="" />
+
+		<meta name="Robots" content="all" />
+		<meta http-equiv="imagetoolbar" content="false" />
+		<meta name="MSSmartTagsPreventParsing" content="true" />
+		
+		<link rel="stylesheet" type="text/css" media="screen, projection" href="{{ STATIC_URL }}css/style.css" />
+
+		<link rel="icon" type="image/gif" href="{{ STATIC_URL }}img/favicon.gif" />
+		<link rel="apple-touch-icon" href="{{ STATIC_URL }}img/apple-touch-icon.png" />
+	</head>
+	<body>
+		<div id="navigation-container">
+			<div id="navigation">
+				<h1 id="masthead"><span>Computer Science</span></h1>
+				<ul class="primary">
+					{% block navigation-primary-inner %}
+						{% if user.is_authenticated %}
+							<li class="first active"><a href="{% url myuni_dashboard %}"><span>Dashboard</span></a></li> 
+							<li><a href=""><span>Modules</span></a></li> 
+							<li><a href=""><span>Coursework <strong>1</strong></span></a></li> 
+							<li class="last"><a href=""><span>People</span></a></li> 
+						{% endif %}
+					{% endblock navigation-primary-inner %}
+				</ul>
+				<ul class="secondary">
+					<li class="help first"><a href="">Help</a></li>
+					<li class="registration"><a href="">Registation</a></li>
+					<li class="login last"><a href="{% url auth_login %}">Login</a></li>
+				</ul>
+			</div>
+		</div>
+		<div id="content-container">
+			<div id="content">
+				{% block page-title %}<h2 class="getting-started">{% block page-title-inner %}{% endblock page-title-inner %}</h2>{% endblock page-title %}
+				
+				{% block header-block %}
+				<div class="block">
+					{% block header-block-inner %}
+					
+					{% endblock header-block-inner %}
+				</div>
+				{% endblock header-block %}
+				
+				{% block content-block %}
+				<div class="block">
+					{% block content-block-inner %}
+					
+					{% endblock content-block-inner %}
+				</div>
+				{% endblock content-block %} 
+			</div>
+		</div>
+		
+		<div id="footer-container">
+			<div id="footer">
+			
+			</div>
+		</div>
+	</body>
+</html>

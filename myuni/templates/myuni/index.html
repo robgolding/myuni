@@ -1,0 +1,17 @@
+{% extends 'base.html' %}
+
+{% block header-block-inner %}
+	<p>MyUni is a new system to help you keep track of all your courseworks and modules.</p> 
+	<p><strong>Choose one of the options below to begin:</strong></p> 
+{% endblock header-block-inner %}
+
+{% block content-block-inner %}
+	<h3><a href="">I'm already a Computer Science student &rarr;</a></h3> 
+	<p>For those who already have a CS username &amp; password.</p> 
+	<hr/> 
+	<h3><a href="">I'm a new student &rarr;</a></h3> 
+	<p>For those who've just arrived, welcome to Nottingham!</p>
+	<hr/> 
+	<h3><a href="{% url myuni_colophon %}">Colophon &rarr;</a></h3> 
+	<p>If you're interested in how MyUni works, then this is for you.</p>  
+{% endblock content-block-inner %}

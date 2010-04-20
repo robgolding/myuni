@@ -1,0 +1,280 @@
+
+	/*
+	#	myUni
+	#	Copyright 2009-2010 Ben Jenkinson
+	#	http://benjenkinson.com/
+	#
+	#	Header & Global Navigation
+	#
+	*/
+
+
+	/* Navigation Container */
+
+	#navigation-container {
+		-webkit-text-stroke:1px transparent;
+		display:block;
+		background:url(../img/nav-bg3.png);
+	}
+
+	#navigation {
+		position: relative;
+		width: 950px;
+		height: 65px;
+		margin: 0 auto;
+	}
+
+	/* Logo/Masthead */
+
+	#masthead {
+		height:54px;
+		line-height:54px;
+		padding-top:11px;
+		float:left;
+		margin-right:28px;
+		font-weight: bold;
+		font-size: 14px;
+		color: #fff;
+		text-shadow: #37769d 0px -1px 0px;
+	}
+	
+	x#masthead {
+		background:url(../img/logo-nottingham.png) left 50% no-repeat;
+		text-indent:-1000px;
+		width:39px;
+		margin-right:20px;
+	}
+	
+	#masthead {
+		background:url(../img/logo-nottingham-text.png) left 50% no-repeat;
+		text-indent:-1000px;
+		width:138px;
+		margin-right:17px;
+	}
+
+	/* Primary Navigation - Modules/Coursework/People */
+
+	#navigation .primary {
+		float: left;
+		height: 54px;
+		padding-top: 9px;
+	}
+
+	#navigation .primary li {
+		display: block;
+		height: 56px;
+		width: 128px;
+		font-size: 14px;
+		margin-left: -8px;
+		float: left;
+		font-weight:bold;
+		text-align: center;
+		background: url('../img/nav-middle.png') left top no-repeat;
+	}
+	
+	#navigation .primary li.first {
+		background: url('../img/nav-left.png') left top no-repeat;
+	}
+	#navigation .primary li.last {
+		background: url('../img/nav-right.png') left top no-repeat;
+	}
+
+	#navigation .primary li.active {
+		z-index: 2;
+		background-position: 0px -56px;
+	}
+
+	#navigation .primary li.active a,
+	#navigation .primary li.active a:hover {
+		text-shadow: #fff 0px 1px 0px;
+		color: #333;
+	}
+	
+	#navigation .primary li a {
+		display: block;
+		height: 56px;
+		color: #bbb;
+		text-decoration: none;
+		text-shadow: #000 0px -1px 0px;
+		-webkit-transition: color .25s linear;
+		background: url('../img/nav-hover.png') left top no-repeat;
+		-webkit-transition: background-position 0.2s linear;
+	}
+	
+	#navigation .primary li a span {
+		display:block;
+		height:20px;
+		line-height:20px;
+		padding-top:19px;
+		xpadding:19px 30px 0px 30px;
+	}
+
+	#navigation .primary li a:active span {
+		padding-top:20px;
+	}
+	
+	#navigation .primary li a:hover {
+		color:#fff;
+		background-position:left -56px;
+	}
+	
+	#navigation .primary li.active a:hover {
+		background-position:left top;
+	}
+	
+	#navigation .primary li a strong {
+		display:-moz-inline-block;
+		display:inline-block;
+		display:none;
+		width:20px;
+		height:21px;
+		color:#fff;
+		font-size:12px;
+		line-height:19px;
+		text-align:center;
+		text-shadow:#a85a00 0px -1px 0;
+		background:url('../img/gw-nav-badge.png') left top no-repeat;
+	}
+	
+
+	/* Secondary Navigation - Settings/Help/Logout */
+
+	#navigation .secondary {
+
+	}
+
+	#navigation .secondary li {
+
+	}
+
+	#navigation .secondary li a {
+
+	}
+
+	#navigation .secondary li a:hover {
+
+	}
+
+	#navigation .secondary li.active a {
+
+	}
+
+
+
+
+	#navigation .secondary {
+		float:right;
+		margin:25px 0px 0 0;
+	}
+	x#navigation .secondary li {
+		display:block;
+		height:20px;
+		float:left;
+		margin-right:8px;
+		background:url('../img/gw-nav-separator.png') right top no-repeat;
+	}
+	#navigation .secondary li.last {
+		background:none;
+		margin-right:0;
+	}
+	x#navigation .secondary li a {
+		display:block;
+		height:18px;
+		margin-right:12px;
+		padding:2px 0 0 20px;
+		padding-left:2px;
+		font-weight:normal;
+		font-size:14px;
+		color:#bcdd9d;
+		color:#cce2b7;
+		text-shadow:#4a662f 0px -1px 0px;
+		text-shadow:#445c2e 0px -1px 0px;
+		color:#436326;
+		text-shadow:#a3d575 0px 1px 0px;
+	}
+	x#navigation .secondary li.active a {
+		font-weight:bold;
+	}
+	
+	x#navigation .secondary li a:active {
+		padding-top:3px;
+		background-position:-19px left !important;
+	}
+	x#navigation .secondary li a:hover {
+		color:#fff;
+		text-decoration:none;
+		text-shadow:#314221 0px -1px 0px;
+	}
+	x#navigation .secondary li.blog a { background: url('../img/gw-nav-blog.png') left top no-repeat; }
+	x#navigation .secondary li.blog a:hover { background-position: -20px left; }
+
+	x#navigation .secondary li.download a { background: url('../img/gw-nav-download.png') left top no-repeat; }
+	x#navigation .secondary li.download a:hover { background-position: -20px left; }
+
+	x#navigation .secondary li.login a { margin-right: 0; }
+	x#navigation .secondary li.login a { background: url('../img/gw-nav-signin.png') left top no-repeat; }
+	x#navigation .secondary li.login a:hover { background-position: -20px left; }
+
+	
+	ul.secondary {
+		display:inline-block;
+		*display:inline;
+		margin:0;
+		background:#373737;
+		border:1px solid #222;
+		-webkit-border-radius:3px;
+		-moz-border-radius:3px;
+		border-radius:3px;
+		margin-left:15px !important;
+	}
+	
+	ul.secondary li {
+		list-style-type:none;
+		display:inline-block;
+		margin:0px;
+	}
+	
+	ul.secondary li a {
+		display:inline-block;
+		height:25px;
+		padding:0px 6px 0px 25px;
+		line-height:25px;
+		color: #777;
+		text-shadow: #000 0px -1px 0px;
+		border-left:1px solid #424242;
+		background-repeat:no-repeat;
+		background-position:5px 1px;
+		margin:0px;
+		text-decoration: none;
+	}
+	
+	ul.secondary li a:hover {
+		color:#fff;
+		text-decoration:none;
+		background-repeat:no-repeat;
+		background-position:5px -24px;
+	}
+	
+	ul.secondary li:first-child a {
+		border-left:none;
+	}
+	
+	ul.secondary li:first-child a:hover {
+		-webkit-border-top-left-radius:3px;
+		-webkit-border-bottom-left-radius:3px;
+		-moz-border-radius-topleft:3px;
+		-moz-border-radius-bottomleft:3px;
+	}
+
+	ul.secondary li:last-child a:hover {
+		-webkit-border-top-right-radius:3px;
+		-webkit-border-bottom-right-radius:3px;
+		-moz-border-radius-topright:3px;
+		-moz-border-radius-bottomright:3px;
+	}
+	
+
+ul.secondary li.login a{background-image:url(http://assets2.github.com/images/modules/pagehead/repostat_watchers.png);}
+ul.secondary li.settings a{background-image:url(http://assets2.github.com/images/modules/pagehead/repostat_forks.png);}
+
+	

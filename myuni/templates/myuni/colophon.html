@@ -1,0 +1,19 @@
+{% extends 'base.html' %}
+{% load version_tags %}
+
+{% block title %}Colophon &bull; {{block.super}}{% endblock title %}
+
+{% block page-title-inner %}Colophon{% endblock page-title-inner %}
+
+{% block header-block-inner %}
+	<p>
+		MyUni is a portal-style web application for Universities, offering students a central location to access all the relevant information about their course, modules, assignments, and staff members.
+		
+		It was originally designed for the University of Nottingham's Computer Science department, and is based on the Django web framework.
+	</p>
+{% endblock header-block-inner %}
+
+{% block content-block-inner %}
+	<h3>Version</h3>
+	<p>You are currently using MyUni version <strong>{% version %}</strong>.</p>
+{% endblock content-block-inner %}
