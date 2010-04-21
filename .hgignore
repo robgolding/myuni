@@ -1,3 +1,4 @@
 syntax: glob
 *.pyc
+myuni/local_settings.py
 myuni.egg-info
