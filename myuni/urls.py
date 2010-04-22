@@ -8,10 +8,10 @@ urlpatterns = patterns('',
 	(r'^admin/doc/', include('django.contrib.admindocs.urls')),
 	(r'^admin/', include(admin.site.urls)),
 	
-	url(r'^$', 'django.views.generic.simple.direct_to_template', {'template': 'myuni/index.html'}, name="index"),
-	url(r'^dashboard/$', 'django.views.generic.simple.direct_to_template', {'template': 'myuni/dashboard.html'}, name="myuni_dashboard"),
-	url(r'^colophon/$', 'django.views.generic.simple.direct_to_template', {'template': 'myuni/colophon.html'}, name="myuni_colophon"),
+	url(r'^$', 'django.views.generic.simple.direct_to_template', {'template': 'index.html'}, name="index"),
+	url(r'^colophon/$', 'django.views.generic.simple.direct_to_template', {'template': 'colophon.html'}, name="colophon"),
 	
+	url(r'^dashboard/', include('myuni.apps.dashboard.urls')),
 	url(r'^accounts/', include('registration.urls')),
 	
 )

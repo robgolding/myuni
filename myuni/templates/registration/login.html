@@ -9,7 +9,7 @@
 {% block content-block %}
 	<div class="block">
 		<form action="" method="post">
-			<input type="hidden" name="next" value="{% url myuni_dashboard %}" />
+			<input type="hidden" name="next" value="{% url dashboard %}" />
 			{% for field in form %}
 				{% if field.is_hidden %}
 					{{field}}

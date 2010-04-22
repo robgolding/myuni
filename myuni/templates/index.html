@@ -1,4 +1,4 @@
-{% extends 'base.html' %}
+{% extends 'base.notabs.html' %}
 
 {% block header-block-inner %}
 	<p>MyUni is a new system to help you keep track of all your courseworks and modules.</p> 
@@ -12,6 +12,6 @@
 	<h3><a href="">I'm a new student &rarr;</a></h3> 
 	<p>For those who've just arrived, welcome to Nottingham!</p>
 	<hr/> 
-	<h3><a href="{% url myuni_colophon %}">Colophon &rarr;</a></h3> 
+	<h3><a href="{% url colophon %}">Colophon &rarr;</a></h3> 
 	<p>If you're interested in how MyUni works, then this is for you.</p>  
 {% endblock content-block-inner %}
