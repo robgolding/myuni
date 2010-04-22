@@ -20,11 +20,7 @@
 					</div>
 				{% endif %}
 			{% endfor %}
-			{% spaceless %}
-				<input type="submit" value="Login" /> or 
-				<a href="{% url index %}">
-				Cancel and go back</a>
-			{% endspaceless %}
+			<p><input type="submit" value="Login" /> or <a href="{% url index %}">Cancel and go back</a></p>
 		</form>
 	</div>
 {% endblock content-block %}

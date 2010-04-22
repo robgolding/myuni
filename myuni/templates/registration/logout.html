@@ -1,0 +1,13 @@
+{% extends 'base.notabs.html' %}
+
+{% block title %}Dashboard &bull; {{block.super}}{% endblock title %}
+
+{% block page-title-inner %}Login{% endblock page-title-inner %}
+
+{% block header-block %}{% endblock header-block %}
+
+{% block content-block %}
+	<div class="block">
+		<p>Thank you for using MyUni. You may now return to the <a href="{% url index %}">homepage</a>, or <a href="{% url auth_login %}">login again</a>.</p>
+	</div>
+{% endblock content-block %}
