@@ -12,6 +12,8 @@ urlpatterns = patterns('',
 	url(r'^colophon/$', 'django.views.generic.simple.direct_to_template', {'template': 'colophon.html'}, name="colophon"),
 	
 	url(r'^dashboard/', include('myuni.apps.dashboard.urls')),
+    url(r'^modules/', include('myuni.apps.modules.urls')),
+
 	url(r'^accounts/', include('registration.urls')),
 	
 )

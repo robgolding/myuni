@@ -1,0 +1,15 @@
+{% extends 'modules/base.html' %}
+
+{% block title %}Modules &bull; {{block.super}}{% endblock title %}
+
+{% block page-title-inner %}Modules{% endblock page-title-inner %}
+
+{% block header-block %}{% endblock header-block %}
+
+{% block content-block %}
+    {% for module in object_list %}
+	<div class="block">
+		<h3>{{ module }}</h3>
+	</div>
+    {% endfor %}
+{% endblock content-block %}

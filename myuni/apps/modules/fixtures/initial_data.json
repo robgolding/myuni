@@ -1,612 +1,695 @@
 [
   {
     "pk": 4, 
-    "model": "modules.module", 
+    "model": "modules.moduledefinition", 
     "fields": {
       "credits": 10, 
       "code": "G51APS", 
       "name": "Algorithmic Problem Solving", 
-      "level": 1
+      "level": 1,
+      "type": "single-semester"
     }
   }, 
   {
     "pk": 5, 
-    "model": "modules.module", 
+    "model": "modules.moduledefinition", 
     "fields": {
       "credits": 10, 
       "code": "G51CSA", 
       "name": "Computer Systems Architecture", 
-      "level": 1
+      "level": 1,
+      "type": "single-semester"
     }
   }, 
   {
     "pk": 33, 
-    "model": "modules.module", 
+    "model": "modules.moduledefinition", 
     "fields": {
       "credits": 10, 
       "code": "G51DBS", 
       "name": "Database Systems", 
-      "level": 1
+      "level": 1,
+      "type": "single-semester"
     }
   }, 
   {
     "pk": 34, 
-    "model": "modules.module", 
+    "model": "modules.moduledefinition", 
     "fields": {
       "credits": 10, 
       "code": "G51FUN", 
       "name": "Functional Programming", 
-      "level": 1
+      "level": 1,
+      "type": "single-semester"
     }
   }, 
   {
     "pk": 6, 
-    "model": "modules.module", 
+    "model": "modules.moduledefinition", 
     "fields": {
       "credits": 10, 
       "code": "G51HOC", 
       "name": "History of Computers and Computing", 
-      "level": 1
+      "level": 1,
+      "type": "single-semester"
     }
   }, 
   {
     "pk": 7, 
-    "model": "modules.module", 
+    "model": "modules.moduledefinition", 
     "fields": {
       "credits": 10, 
       "code": "G51IAI", 
       "name": "Introduction to Artificial Intelligence", 
-      "level": 1
+      "level": 1,
+      "type": "single-semester"
     }
   }, 
   {
     "pk": 35, 
-    "model": "modules.module", 
+    "model": "modules.moduledefinition", 
     "fields": {
       "credits": 10, 
       "code": "G51IRB", 
       "name": "Introduction to Robotics", 
-      "level": 1
+      "level": 1,
+      "type": "single-semester"
     }
   }, 
   {
     "pk": 36, 
-    "model": "modules.module", 
+    "model": "modules.moduledefinition", 
     "fields": {
       "credits": 10, 
       "code": "G51ISE", 
       "name": "Introduction to Software Engineering", 
-      "level": 1
+      "level": 1,
+      "type": "single-semester"
     }
   }, 
   {
     "pk": 8, 
-    "model": "modules.module", 
+    "model": "modules.moduledefinition", 
     "fields": {
       "credits": 10, 
       "code": "G51ISS", 
       "name": "Introduction to Software Systems", 
-      "level": 1
+      "level": 1,
+      "type": "single-semester"
     }
   }, 
   {
     "pk": 9, 
-    "model": "modules.module", 
+    "model": "modules.moduledefinition", 
     "fields": {
       "credits": 10, 
       "code": "G51MCS", 
       "name": "Mathematics for Computer Scientists", 
-      "level": 1
+      "level": 1,
+      "type": "single-semester"
     }
   }, 
   {
     "pk": 1, 
-    "model": "modules.module", 
+    "model": "modules.moduledefinition", 
     "fields": {
       "credits": 10, 
       "code": "G51PRG", 
       "name": "Programming", 
-      "level": 1
+      "level": 1,
+      "type": "full-year"
     }
   }, 
   {
     "pk": 10, 
-    "model": "modules.module", 
+    "model": "modules.moduledefinition", 
     "fields": {
       "credits": 10, 
       "code": "G51SCI", 
       "name": "Skills for Communicating Information", 
-      "level": 1
+      "level": 1,
+      "type": "single-semester"
     }
   }, 
   {
     "pk": 37, 
-    "model": "modules.module", 
+    "model": "modules.moduledefinition", 
     "fields": {
       "credits": 10, 
       "code": "G51UST", 
       "name": "Unix and Software Tools", 
-      "level": 1
+      "level": 1,
+      "type": "single-semester"
     }
   }, 
   {
     "pk": 38, 
-    "model": "modules.module", 
+    "model": "modules.moduledefinition", 
     "fields": {
       "credits": 10, 
       "code": "G51WPS", 
       "name": "Web Programming and Scripting", 
-      "level": 1
+      "level": 1,
+      "type": "single-semester"
     }
   }, 
   {
     "pk": 11, 
-    "model": "modules.module", 
+    "model": "modules.moduledefinition", 
     "fields": {
       "credits": 10, 
       "code": "G52ADS", 
       "name": "Algorithms and Data Structures", 
-      "level": 2
+      "level": 2,
+      "type": "single-semester"
     }
   }, 
   {
     "pk": 39, 
-    "model": "modules.module", 
+    "model": "modules.moduledefinition", 
     "fields": {
       "credits": 10, 
       "code": "G52AFP", 
       "name": "Advanced Functional Programming", 
-      "level": 2
+      "level": 2,
+      "type": "single-semester"
     }
   }, 
   {
     "pk": 40, 
-    "model": "modules.module", 
+    "model": "modules.moduledefinition", 
     "fields": {
       "credits": 10, 
       "code": "G52AIM", 
       "name": "Artificial Intelligence Methods", 
-      "level": 2
+      "level": 2,
+      "type": "single-semester"
     }
   }, 
   {
     "pk": 12, 
-    "model": "modules.module", 
+    "model": "modules.moduledefinition", 
     "fields": {
       "credits": 10, 
       "code": "G52AIP", 
       "name": "Artificial Intelligence Programming", 
-      "level": 2
+      "level": 2,
+      "type": "single-semester"
     }
   }, 
   {
     "pk": 41, 
-    "model": "modules.module", 
+    "model": "modules.moduledefinition", 
     "fields": {
       "credits": 10, 
       "code": "G52ARB", 
       "name": "Advanced Robotics", 
-      "level": 2
+      "level": 2,
+      "type": "single-semester"
     }
   }, 
   {
     "pk": 42, 
-    "model": "modules.module", 
+    "model": "modules.moduledefinition", 
     "fields": {
       "credits": 10, 
       "code": "G52CCN", 
       "name": "Computer Communications and Networks", 
-      "level": 2
+      "level": 2,
+      "type": "single-semester"
     }
   }, 
   {
     "pk": 13, 
-    "model": "modules.module", 
+    "model": "modules.moduledefinition", 
     "fields": {
       "credits": 10, 
       "code": "G52CFJ", 
       "name": "C/C++ for Java Programmers", 
-      "level": 2
+      "level": 2,
+      "type": "single-semester"
     }
   }, 
   {
     "pk": 43, 
-    "model": "modules.module", 
+    "model": "modules.moduledefinition", 
     "fields": {
       "credits": 10, 
       "code": "G52CMP", 
       "name": "Compilers", 
-      "level": 2
+      "level": 2,
+      "type": "single-semester"
     }
   }, 
   {
     "pk": 44, 
-    "model": "modules.module", 
+    "model": "modules.moduledefinition", 
     "fields": {
       "credits": 10, 
       "code": "G52CON", 
       "name": "Concepts of Concurrency", 
-      "level": 2
+      "level": 2,
+      "type": "single-semester"
     }
   }, 
   {
     "pk": 45, 
-    "model": "modules.module", 
+    "model": "modules.moduledefinition", 
     "fields": {
       "credits": 10, 
       "code": "G52DOA", 
       "name": "Derivation of Algorithms", 
-      "level": 2
+      "level": 2,
+      "type": "single-semester"
     }
   }, 
   {
     "pk": 14, 
-    "model": "modules.module", 
+    "model": "modules.moduledefinition", 
     "fields": {
       "credits": 10, 
       "code": "G52DOC", 
       "name": "Digital Documents", 
-      "level": 2
+      "level": 2,
+      "type": "single-semester"
+    }
+  }, 
+  {
+    "pk": 2, 
+    "model": "modules.moduledefinition", 
+    "fields": {
+      "credits": 20, 
+      "code": "G52GRP", 
+      "name": "Software Engineering Group Project", 
+      "level": 2,
+      "type": "full-year"
+    }
+  }, 
+  {
+    "pk": 15, 
+    "model": "modules.moduledefinition", 
+    "fields": {
+      "credits": 10, 
+      "code": "G52GUI", 
+      "name": "Graphical User Interfaces", 
+      "level": 2,
+      "type": "single-semester"
+    }
+  }, 
+  {
+    "pk": 46, 
+    "model": "modules.moduledefinition", 
+    "fields": {
+      "credits": 10, 
+      "code": "G52HCI", 
+      "name": "Human Computer Interaction", 
+      "level": 2,
+      "type": "single-semester"
+    }
+  }, 
+  {
+    "pk": 16, 
+    "model": "modules.moduledefinition", 
+    "fields": {
+      "credits": 10, 
+      "code": "G52HPA", 
+      "name": "History and Philosophy of Artificial Intelligence", 
+      "level": 2,
+      "type": "single-semester"
+    }
+  }, 
+  {
+    "pk": 47, 
+    "model": "modules.moduledefinition", 
+    "fields": {
+      "credits": 10, 
+      "code": "G52IVG", 
+      "name": "Introduction to Vision and Graphics", 
+      "level": 2,
+      "type": "single-semester"
+    }
+  }, 
+  {
+    "pk": 17, 
+    "model": "modules.moduledefinition", 
+    "fields": {
+      "credits": 10, 
+      "code": "G52IWS", 
+      "name": "Internet and Web Services", 
+      "level": 2,
+      "type": "single-semester"
+    }
+  }, 
+  {
+    "pk": 18, 
+    "model": "modules.moduledefinition", 
+    "fields": {
+      "credits": 10, 
+      "code": "G52LSS", 
+      "name": "Large Scale Systems Design", 
+      "level": 2,
+      "type": "single-semester"
+    }
+  }, 
+  {
+    "pk": 19, 
+    "model": "modules.moduledefinition", 
+    "fields": {
+      "credits": 10, 
+      "code": "G52MAL", 
+      "name": "Machines and their Languages", 
+      "level": 2,
+      "type": "single-semester"
+    }
+  }, 
+  {
+    "pk": 20, 
+    "model": "modules.moduledefinition", 
+    "fields": {
+      "credits": 10, 
+      "code": "G52MC2", 
+      "name": "Mathematics for Computer Scientists 2", 
+      "level": 2,
+      "type": "single-semester"
+    }
+  }, 
+  {
+    "pk": 21, 
+    "model": "modules.moduledefinition", 
+    "fields": {
+      "credits": 10, 
+      "code": "G52NEC", 
+      "name": "Neural Computing", 
+      "level": 2,
+      "type": "single-semester"
+    }
+  }, 
+  {
+    "pk": 48, 
+    "model": "modules.moduledefinition", 
+    "fields": {
+      "credits": 10, 
+      "code": "G52OBJ", 
+      "name": "Object-oriented Methods", 
+      "level": 2,
+      "type": "single-semester"
+    }
+  }, 
+  {
+    "pk": 49, 
+    "model": "modules.moduledefinition", 
+    "fields": {
+      "credits": 10, 
+      "code": "G53ACC", 
+      "name": "Advanced Computer Communications", 
+      "level": 3,
+      "type": "single-semester"
+    }
+  }, 
+  {
+    "pk": 22, 
+    "model": "modules.moduledefinition", 
+    "fields": {
+      "credits": 10, 
+      "code": "G53AGR", 
+      "name": "Advanced Computer Graphics", 
+      "level": 3,
+      "type": "single-semester"
+    }
+  }, 
+  {
+    "pk": 50, 
+    "model": "modules.moduledefinition", 
+    "fields": {
+      "credits": 10, 
+      "code": "G53ASD", 
+      "name": "Automated Scheduling", 
+      "level": 3,
+      "type": "single-semester"
+    }
+  }, 
+  {
+    "pk": 51, 
+    "model": "modules.moduledefinition", 
+    "fields": {
+      "credits": 10, 
+      "code": "G53BIO", 
+      "name": "Bioinformatics", 
+      "level": 3,
+      "type": "single-semester"
+    }
+  }, 
+  {
+    "pk": 52, 
+    "model": "modules.moduledefinition", 
+    "fields": {
+      "credits": 10, 
+      "code": "G53CFR", 
+      "name": "Computer Aided Formal Reasoning", 
+      "level": 3,
+      "type": "single-semester"
+    }
+  }, 
+  {
+    "pk": 53, 
+    "model": "modules.moduledefinition", 
+    "fields": {
+      "credits": 10, 
+      "code": "G53COM", 
+      "name": "Computability", 
+      "level": 3,
+      "type": "single-semester"
+    }
+  }, 
+  {
+    "pk": 23, 
+    "model": "modules.moduledefinition", 
+    "fields": {
+      "credits": 10, 
+      "code": "G53DBC", 
+      "name": "Digital Business Communications", 
+      "level": 3,
+      "type": "single-semester"
+    }
+  }, 
+  {
+    "pk": 54, 
+    "model": "modules.moduledefinition", 
+    "fields": {
+      "credits": 10, 
+      "code": "G53DDB", 
+      "name": "Developments in Digital Business", 
+      "level": 3,
+      "type": "single-semester"
+    }
+  }, 
+  {
+    "pk": 55, 
+    "model": "modules.moduledefinition", 
+    "fields": {
+      "credits": 10, 
+      "code": "G53DIA", 
+      "name": "Designing Intelligent Agents", 
+      "level": 3,
+      "type": "single-semester"
+    }
+  }, 
+  {
+    "pk": 56, 
+    "model": "modules.moduledefinition", 
+    "fields": {
+      "credits": 10, 
+      "code": "G53DSM", 
+      "name": "Decision Support Methodologies", 
+      "level": 3,
+      "type": "single-semester"
+    }
+  }, 
+  {
+    "pk": 57, 
+    "model": "modules.moduledefinition", 
+    "fields": {
+      "credits": 10, 
+      "code": "G53ELC", 
+      "name": "Enterprise Level Computing", 
+      "level": 3,
+      "type": "single-semester"
+    }
+  }, 
+  {
+    "pk": 58, 
+    "model": "modules.moduledefinition", 
+    "fields": {
+      "credits": 10, 
+      "code": "G53FSP", 
+      "name": "Formal System Specification", 
+      "level": 3,
+      "type": "single-semester"
+    }
+  }, 
+  {
+    "pk": 24, 
+    "model": "modules.moduledefinition", 
+    "fields": {
+      "credits": 10, 
+      "code": "G53GEM", 
+      "name": "Gems of Theoretical Computer Science", 
+      "level": 3,
+      "type": "single-semester"
+    }
+  }, 
+  {
+    "pk": 3, 
+    "model": "modules.moduledefinition", 
+    "fields": {
+      "credits": 40, 
+      "code": "G53IDS", 
+      "name": "Individual Dissertation", 
+      "level": 3,
+      "type": "full-year"
+    }
+  }, 
+  {
+    "pk": 25, 
+    "model": "modules.moduledefinition", 
+    "fields": {
+      "credits": 10, 
+      "code": "G53KRR", 
+      "name": "Knowledge Representation and Reasoning", 
+      "level": 3,
+      "type": "single-semester"
+    }
+  }, 
+  {
+    "pk": 59, 
+    "model": "modules.moduledefinition", 
+    "fields": {
+      "credits": 10, 
+      "code": "G53MIA", 
+      "name": "Multimedia Interfaces and Applications", 
+      "level": 3,
+      "type": "single-semester"
+    }
+  }, 
+  {
+    "pk": 60, 
+    "model": "modules.moduledefinition", 
+    "fields": {
+      "credits": 10, 
+      "code": "G53NSC", 
+      "name": "Non-Standard Computation", 
+      "level": 3,
+      "type": "single-semester"
+    }
+  }, 
+  {
+    "pk": 26, 
+    "model": "modules.moduledefinition", 
+    "fields": {
+      "credits": 10, 
+      "code": "G53OPS", 
+      "name": "Operating Systems", 
+      "level": 3,
+      "type": "single-semester"
+    }
+  }, 
+  {
+    "pk": 27, 
+    "model": "modules.moduledefinition", 
+    "fields": {
+      "credits": 10, 
+      "code": "G53ORO", 
+      "name": "Operations Research and Optimisation", 
+      "level": 3,
+      "type": "single-semester"
+    }
+  }, 
+  {
+    "pk": 61, 
+    "model": "modules.moduledefinition", 
+    "fields": {
+      "credits": 10, 
+      "code": "G53PAL", 
+      "name": "Programming Algebra", 
+      "level": 3,
+      "type": "single-semester"
+    }
+  }, 
+  {
+    "pk": 28, 
+    "model": "modules.moduledefinition", 
+    "fields": {
+      "credits": 10, 
+      "code": "G53POP", 
+      "name": "Principles of Programming Languages", 
+      "level": 3,
+      "type": "single-semester"
+    }
+  }, 
+  {
+    "pk": 29, 
+    "model": "modules.moduledefinition", 
+    "fields": {
+      "credits": 10, 
+      "code": "G53QAT", 
+      "name": "Quality Assurance and Testing", 
+      "level": 3,
+      "type": "single-semester"
+    }
+  }, 
+  {
+    "pk": 30, 
+    "model": "modules.moduledefinition", 
+    "fields": {
+      "credits": 10, 
+      "code": "G53SEC", 
+      "name": "Computer Security", 
+      "level": 3,
+      "type": "single-semester"
+    }
+  }, 
+  {
+    "pk": 31, 
+    "model": "modules.moduledefinition", 
+    "fields": {
+      "credits": 10, 
+      "code": "G53SRP", 
+      "name": "Systems and Real-Time Programming", 
+      "level": 3,
+      "type": "single-semester"
+    }
+  }, 
+  {
+    "pk": 32, 
+    "model": "modules.moduledefinition", 
+    "fields": {
+      "credits": 10, 
+      "code": "G53VIS", 
+      "name": "Computer Vision", 
+      "level": 3,
+      "type": "single-semester"
+    }
+  },
+  {
+    "pk": 1, 
+    "model": "modules.module", 
+    "fields": {
+      "students": [], 
+      "definition": 1, 
+      "semester": null, 
+      "convener": 1, 
+      "year": 1
     }
   }, 
   {
     "pk": 2, 
     "model": "modules.module", 
     "fields": {
-      "credits": 20, 
-      "code": "G52GRP", 
-      "name": "Software Engineering Group Project", 
-      "level": 2
-    }
-  }, 
-  {
-    "pk": 15, 
-    "model": "modules.module", 
-    "fields": {
-      "credits": 10, 
-      "code": "G52GUI", 
-      "name": "Graphical User Interfaces", 
-      "level": 2
-    }
-  }, 
-  {
-    "pk": 46, 
-    "model": "modules.module", 
-    "fields": {
-      "credits": 10, 
-      "code": "G52HCI", 
-      "name": "Human Computer Interaction", 
-      "level": 2
-    }
-  }, 
-  {
-    "pk": 16, 
-    "model": "modules.module", 
-    "fields": {
-      "credits": 10, 
-      "code": "G52HPA", 
-      "name": "History and Philosophy of Artificial Intelligence", 
-      "level": 2
-    }
-  }, 
-  {
-    "pk": 47, 
-    "model": "modules.module", 
-    "fields": {
-      "credits": 10, 
-      "code": "G52IVG", 
-      "name": "Introduction to Vision and Graphics", 
-      "level": 2
-    }
-  }, 
-  {
-    "pk": 17, 
-    "model": "modules.module", 
-    "fields": {
-      "credits": 10, 
-      "code": "G52IWS", 
-      "name": "Internet and Web Services", 
-      "level": 2
-    }
-  }, 
-  {
-    "pk": 18, 
-    "model": "modules.module", 
-    "fields": {
-      "credits": 10, 
-      "code": "G52LSS", 
-      "name": "Large Scale Systems Design", 
-      "level": 2
-    }
-  }, 
-  {
-    "pk": 19, 
-    "model": "modules.module", 
-    "fields": {
-      "credits": 10, 
-      "code": "G52MAL", 
-      "name": "Machines and their Languages", 
-      "level": 2
-    }
-  }, 
-  {
-    "pk": 20, 
-    "model": "modules.module", 
-    "fields": {
-      "credits": 10, 
-      "code": "G52MC2", 
-      "name": "Mathematics for Computer Scientists 2", 
-      "level": 2
-    }
-  }, 
-  {
-    "pk": 21, 
-    "model": "modules.module", 
-    "fields": {
-      "credits": 10, 
-      "code": "G52NEC", 
-      "name": "Neural Computing", 
-      "level": 2
-    }
-  }, 
-  {
-    "pk": 48, 
-    "model": "modules.module", 
-    "fields": {
-      "credits": 10, 
-      "code": "G52OBJ", 
-      "name": "Object-oriented Methods", 
-      "level": 2
-    }
-  }, 
-  {
-    "pk": 49, 
-    "model": "modules.module", 
-    "fields": {
-      "credits": 10, 
-      "code": "G53ACC", 
-      "name": "Advanced Computer Communications", 
-      "level": 3
-    }
-  }, 
-  {
-    "pk": 22, 
-    "model": "modules.module", 
-    "fields": {
-      "credits": 10, 
-      "code": "G53AGR", 
-      "name": "Advanced Computer Graphics", 
-      "level": 3
-    }
-  }, 
-  {
-    "pk": 50, 
-    "model": "modules.module", 
-    "fields": {
-      "credits": 10, 
-      "code": "G53ASD", 
-      "name": "Automated Scheduling", 
-      "level": 3
-    }
-  }, 
-  {
-    "pk": 51, 
-    "model": "modules.module", 
-    "fields": {
-      "credits": 10, 
-      "code": "G53BIO", 
-      "name": "Bioinformatics", 
-      "level": 3
-    }
-  }, 
-  {
-    "pk": 52, 
-    "model": "modules.module", 
-    "fields": {
-      "credits": 10, 
-      "code": "G53CFR", 
-      "name": "Computer Aided Formal Reasoning", 
-      "level": 3
-    }
-  }, 
-  {
-    "pk": 53, 
-    "model": "modules.module", 
-    "fields": {
-      "credits": 10, 
-      "code": "G53COM", 
-      "name": "Computability", 
-      "level": 3
-    }
-  }, 
-  {
-    "pk": 23, 
-    "model": "modules.module", 
-    "fields": {
-      "credits": 10, 
-      "code": "G53DBC", 
-      "name": "Digital Business Communications", 
-      "level": 3
-    }
-  }, 
-  {
-    "pk": 54, 
-    "model": "modules.module", 
-    "fields": {
-      "credits": 10, 
-      "code": "G53DDB", 
-      "name": "Developments in Digital Business", 
-      "level": 3
-    }
-  }, 
-  {
-    "pk": 55, 
-    "model": "modules.module", 
-    "fields": {
-      "credits": 10, 
-      "code": "G53DIA", 
-      "name": "Designing Intelligent Agents", 
-      "level": 3
-    }
-  }, 
-  {
-    "pk": 56, 
-    "model": "modules.module", 
-    "fields": {
-      "credits": 10, 
-      "code": "G53DSM", 
-      "name": "Decision Support Methodologies", 
-      "level": 3
-    }
-  }, 
-  {
-    "pk": 57, 
-    "model": "modules.module", 
-    "fields": {
-      "credits": 10, 
-      "code": "G53ELC", 
-      "name": "Enterprise Level Computing", 
-      "level": 3
-    }
-  }, 
-  {
-    "pk": 58, 
-    "model": "modules.module", 
-    "fields": {
-      "credits": 10, 
-      "code": "G53FSP", 
-      "name": "Formal System Specification", 
-      "level": 3
-    }
-  }, 
-  {
-    "pk": 24, 
-    "model": "modules.module", 
-    "fields": {
-      "credits": 10, 
-      "code": "G53GEM", 
-      "name": "Gems of Theoretical Computer Science", 
-      "level": 3
-    }
-  }, 
-  {
-    "pk": 3, 
-    "model": "modules.module", 
-    "fields": {
-      "credits": 40, 
-      "code": "G53IDS", 
-      "name": "Individual Dissertation", 
-      "level": 3
-    }
-  }, 
-  {
-    "pk": 25, 
-    "model": "modules.module", 
-    "fields": {
-      "credits": 10, 
-      "code": "G53KRR", 
-      "name": "Knowledge Representation and Reasoning", 
-      "level": 3
-    }
-  }, 
-  {
-    "pk": 59, 
-    "model": "modules.module", 
-    "fields": {
-      "credits": 10, 
-      "code": "G53MIA", 
-      "name": "Multimedia Interfaces and Applications", 
-      "level": 3
-    }
-  }, 
-  {
-    "pk": 60, 
-    "model": "modules.module", 
-    "fields": {
-      "credits": 10, 
-      "code": "G53NSC", 
-      "name": "Non-Standard Computation", 
-      "level": 3
-    }
-  }, 
-  {
-    "pk": 26, 
-    "model": "modules.module", 
-    "fields": {
-      "credits": 10, 
-      "code": "G53OPS", 
-      "name": "Operating Systems", 
-      "level": 3
-    }
-  }, 
-  {
-    "pk": 27, 
-    "model": "modules.module", 
-    "fields": {
-      "credits": 10, 
-      "code": "G53ORO", 
-      "name": "Operations Research and Optimisation", 
-      "level": 3
-    }
-  }, 
-  {
-    "pk": 61, 
-    "model": "modules.module", 
-    "fields": {
-      "credits": 10, 
-      "code": "G53PAL", 
-      "name": "Programming Algebra", 
-      "level": 3
-    }
-  }, 
-  {
-    "pk": 28, 
-    "model": "modules.module", 
-    "fields": {
-      "credits": 10, 
-      "code": "G53POP", 
-      "name": "Principles of Programming Languages", 
-      "level": 3
-    }
-  }, 
-  {
-    "pk": 29, 
-    "model": "modules.module", 
-    "fields": {
-      "credits": 10, 
-      "code": "G53QAT", 
-      "name": "Quality Assurance and Testing", 
-      "level": 3
-    }
-  }, 
-  {
-    "pk": 30, 
-    "model": "modules.module", 
-    "fields": {
-      "credits": 10, 
-      "code": "G53SEC", 
-      "name": "Computer Security", 
-      "level": 3
-    }
-  }, 
-  {
-    "pk": 31, 
-    "model": "modules.module", 
-    "fields": {
-      "credits": 10, 
-      "code": "G53SRP", 
-      "name": "Systems and Real-Time Programming", 
-      "level": 3
-    }
-  }, 
-  {
-    "pk": 32, 
-    "model": "modules.module", 
-    "fields": {
-      "credits": 10, 
-      "code": "G53VIS", 
-      "name": "Computer Vision", 
-      "level": 3
+      "students": [], 
+      "definition": 1, 
+      "semester": null, 
+      "convener": 1, 
+      "year": 2
     }
   }
 ]
