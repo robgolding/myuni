@@ -1,0 +1,48 @@
+[
+  {
+    "pk": 1, 
+    "model": "scheduling.year", 
+    "fields": {
+      "year": "2008-2009"
+    }
+  }, 
+  {
+    "pk": 2, 
+    "model": "scheduling.year", 
+    "fields": {
+      "year": "2009-2010"
+    }
+  }, 
+  {
+    "pk": 1, 
+    "model": "scheduling.semester", 
+    "fields": {
+      "type": "autumn", 
+      "year": 1
+    }
+  }, 
+  {
+    "pk": 2, 
+    "model": "scheduling.semester", 
+    "fields": {
+      "type": "spring", 
+      "year": 1
+    }
+  }, 
+  {
+    "pk": 3, 
+    "model": "scheduling.semester", 
+    "fields": {
+      "type": "autumn", 
+      "year": 2
+    }
+  }, 
+  {
+    "pk": 4, 
+    "model": "scheduling.semester", 
+    "fields": {
+      "type": "spring", 
+      "year": 2
+    }
+  }
+]
