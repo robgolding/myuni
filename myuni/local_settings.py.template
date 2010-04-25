@@ -3,5 +3,11 @@ import os
 SERVE_MEDIA = True
 PATH = os.path.abspath(os.path.dirname(__file__))
 
+INTERNAL_IPS = ('127.0.0.1',)
+
 DATABASE_ENGINE = 'sqlite3'
 DATABASE_NAME = os.path.join(PATH, 'dev.db')
+
+DEBUG_TOOLBAR_CONFIG = {
+	'INTERCEPT_REDIRECTS': False,
+}

@@ -98,7 +98,6 @@ INSTALLED_APPS = (
 	'myuni.apps.core',
     'myuni.apps.dashboard',
     'myuni.apps.modules',
-    'myuni.apps.scheduling',    # this may be renamed, or removed altogether
 )
 
 STATIC_ROOT = os.path.join(PATH, 'static')
