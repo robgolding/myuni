@@ -1,10 +1,19 @@
 from django.db import models
+import utils
 
 # models not finalised yet, just a possible way to do things
 
 MODULE_TYPE_CHOICES = (
 	('single-semester', 'Single semester'),
 	('full-year', 'Full-year'),
+)
+
+YEAR_CHOICES = utils.generate_year_choices()
+
+SEMESTER_CHOICES = (
+	('autumn', 'Autumn Semester'),
+	('spring', 'Spring Semester'),
+    ('summer', 'Summer Semester'),
 )
 
 class ModuleDefinition(models.Model):
@@ -27,8 +36,9 @@ class Module(models.Model):
 	level   =	property(lambda s: s._get_definition_property('level'))
 	
 	definition = models.ForeignKey('ModuleDefinition')
-	semester = models.ForeignKey('scheduling.Semester', null=True, blank=True)
-	year = models.ForeignKey('scheduling.Year', null=True, blank=True)
+	semester = models.CharField(max_length=20, null=True, blank=True, choices=SEMESTER_CHOICES)
+	year = models.CharField(max_length=20, null=True, blank=True, choices=YEAR_CHOICES)
+
 	convener = models.ForeignKey('auth.User', related_name='modules_convened')
 	students = models.ManyToManyField('auth.User', blank=True, related_name='modules_taken')
 	
@@ -36,7 +46,11 @@ class Module(models.Model):
 		return self.definition.__getattribute__(property)
 	
 	def __unicode__(self):
-		return '%s %s' % (self.definition.code, self.semester or self.year)
+		if self.semester:
+			s = '%s %s' % (self.get_semester_display(), self.get_year_display())
+		else:
+			s = self.get_year_display()
+		return '%s %s' % (self.definition.code, s)
 	
 	class Meta:
 		unique_together = (('definition', 'semester'),('definition', 'year'),)
