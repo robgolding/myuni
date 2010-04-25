@@ -67,6 +67,7 @@ MIDDLEWARE_CLASSES = (
 	'django.middleware.common.CommonMiddleware',
 	'django.contrib.sessions.middleware.SessionMiddleware',
 	'django.contrib.auth.middleware.AuthenticationMiddleware',
+	'debug_toolbar.middleware.DebugToolbarMiddleware',
 )
 
 ROOT_URLCONF = 'myuni.urls'
@@ -98,6 +99,9 @@ INSTALLED_APPS = (
 	'myuni.apps.core',
     'myuni.apps.dashboard',
     'myuni.apps.modules',
+
+	# 3rd party apps
+	'debug_toolbar',
 )
 
 STATIC_ROOT = os.path.join(PATH, 'static')
