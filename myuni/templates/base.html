@@ -20,17 +20,17 @@
 		<link rel="icon" type="image/gif" href="{{ STATIC_URL }}img/favicon.gif" />
 		<link rel="apple-touch-icon" href="{{ STATIC_URL }}img/apple-touch-icon.png" />
 	</head>
-	<body>
+	<body id="{% block page_id %}{% endblock page_id %}">
 		<div id="navigation-container">
 			<div id="navigation">
 				<h1 id="masthead"><span>Computer Science</span></h1>
 				<ul class="primary">
 					{% block navigation-primary-inner %}
 						{% if user.is_authenticated %}
-							<li class="first active"><a href="{% url dashboard %}"><span>Dashboard</span></a></li> 
-							<li><a href="{% url modules_module_list %}"><span>Modules</span></a></li>
-							<li><a href=""><span>Coursework <strong>1</strong></span></a></li> 
-							<li class="last"><a href=""><span>People</span></a></li> 
+							<li class="first dashboard"><a href="{% url dashboard %}"><span>Dashboard</span></a></li> 
+							<li class="modules"><a href="{% url modules_module_list %}"><span>Modules</span></a></li>
+							<li class="coursework"><a href=""><span>Coursework <strong>1</strong></span></a></li> 
+							<li class="last people"><a href=""><span>People</span></a></li> 
 						{% endif %}
 					{% endblock navigation-primary-inner %}
 				</ul>

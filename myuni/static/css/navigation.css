@@ -122,6 +122,50 @@
 		background-position:left top;
 	}
 	
+	body#dashboard #navigation .primary li.dashboard {
+		z-index: 2;
+		background-position: 0px -56px;
+	}
+	
+	body#dashboard #navigation .primary li.dashboard a,
+	body#dashboard #navigation .primary li.dashboard a:hover {
+		text-shadow: #fff 0px 1px 0px;
+		color: #333;
+	}
+	
+	body#modules #navigation .primary li.modules {
+		z-index: 2;
+		background-position: 0px -56px;
+	}
+	
+	body#modules #navigation .primary li.modules a,
+	body#modules #navigation .primary li.modules a:hover {
+		text-shadow: #fff 0px 1px 0px;
+		color: #333;
+	}
+	
+	body#coursework #navigation .primary li.coursework {
+		z-index: 2;
+		background-position: 0px -56px;
+	}
+	
+	body#coursework #navigation .primary li.coursework a,
+	body#coursework #navigation .primary li.coursework a:hover {
+		text-shadow: #fff 0px 1px 0px;
+		color: #333;
+	}
+	
+	body#people #navigation .primary li.people {
+		z-index: 2;
+		background-position: 0px -56px;
+	}
+	
+	body#people #navigation .primary li.people a,
+	body#people #navigation .primary li.people a:hover {
+		text-shadow: #fff 0px 1px 0px;
+		color: #333;
+	}
+	
 	#navigation .primary li a strong {
 		display:-moz-inline-block;
 		display:inline-block;
