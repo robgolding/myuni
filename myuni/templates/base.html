@@ -37,10 +37,10 @@
 				<ul class="secondary">
 					{% if user.is_authenticated %}
 						<li class="settings first"><a href="">Settings</a></li>
-						<li class="help"><a href="">Help</a></li>
+						<li class="help"><a href="{% url colophon %}">Help</a></li>
 						<li class="login last"><a href="{% url auth_logout %}">Logout</a></li>
 					{% else %}
-						<li class="help first"><a href="">Help</a></li>
+						<li class="help first"><a href="{% url colophon %}">Help</a></li>
 						<li class="registration"><a href="">Registation</a></li>
 						<li class="login last"><a href="{% url auth_login %}">Login</a></li>
 					{% endif %}
