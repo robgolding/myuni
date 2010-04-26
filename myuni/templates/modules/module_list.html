@@ -9,7 +9,7 @@
 {% block content-block %}
     {% for module in object_list %}
 	<div class="block">
-		<h3>{{ module.code }}: {{ module.name }}, {{ module.get_semester_display|default:"Full-year" }} {{ module.get_year_display }}</h3>
+		<h3><a href="{{ module.get_absolute_url }}">{{ module.code }}: {{ module.name }}, {{ module.get_semester_display|default:"Full-year" }} {{ module.get_year_display }}</a></h3>
 	</div>
     {% endfor %}
 {% endblock content-block %}

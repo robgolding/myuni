@@ -1,0 +1,13 @@
+{% extends 'modules/base.html' %}
+
+{% block title %}{{ object.code }} &bull; {{block.super}}{% endblock title %}
+
+{% block page-title-inner %}{{ object.code }}: {{ object.name }}{% endblock page-title-inner %}
+
+{% block header-block %}{% endblock header-block %}
+
+{% block content-block %}
+	<div class="block">
+		<h3>{{ object.code }}: {{ object.name }}, {{ object.get_semester_display|default:"Full-year" }} {{ object.get_year_display }}</h3>
+	</div>
+{% endblock content-block %}

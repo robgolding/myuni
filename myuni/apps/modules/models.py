@@ -1,4 +1,5 @@
 from django.db import models
+
 import utils
 
 # models not finalised yet, just a possible way to do things
@@ -14,6 +15,7 @@ SEMESTER_CHOICES = (
 	('autumn', 'Autumn Semester'),
 	('spring', 'Spring Semester'),
     ('summer', 'Summer Semester'),
+    ('full-year', 'Full-year'),
 )
 
 class ModuleDefinition(models.Model):
@@ -36,21 +38,24 @@ class Module(models.Model):
 	level   =	property(lambda s: s._get_definition_property('level'))
 	
 	definition = models.ForeignKey('ModuleDefinition')
-	semester = models.CharField(max_length=20, null=True, blank=True, choices=SEMESTER_CHOICES)
-	year = models.CharField(max_length=20, null=True, blank=True, choices=YEAR_CHOICES)
-
+	semester = models.CharField(max_length=20, choices=SEMESTER_CHOICES)
+	year = models.CharField(max_length=20, choices=YEAR_CHOICES)
+	
 	convener = models.ForeignKey('auth.User', related_name='modules_convened')
 	students = models.ManyToManyField('auth.User', blank=True, related_name='modules_taken')
+	
+	date_added = models.DateTimeField(auto_now_add=True)
 	
 	def _get_definition_property(self, property):
 		return self.definition.__getattribute__(property)
 	
+	@models.permalink
+	def get_absolute_url(self):
+		return ('modules_module_detail', [self.year, self.semester, self.definition.code])
+	
 	def __unicode__(self):
-		if self.semester:
-			s = '%s %s' % (self.get_semester_display(), self.get_year_display())
-		else:
-			s = self.get_year_display()
-		return '%s %s' % (self.definition.code, s)
+		return '%s (%s %s)' % (self.definition.code, self.get_semester_display(), self.get_year_display())
 	
 	class Meta:
-		unique_together = (('definition', 'semester'),('definition', 'year'),)
+		unique_together = (('definition', 'year', 'semester'),)
+		get_latest_by = 'date_added'
