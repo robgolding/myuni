@@ -1,3 +1,9 @@
-Django==1.1.1
-django-registration==0.7
+# This file pulls in everything a developer needs.  If it's a basic package
+# needed to run the site, it belongs in requirements-prod.txt.  If it's a
+# package for developers (testing, docs, etc.), it goes in this file.
+
+-r requirements-prod.txt
+
 django-debug-toolbar==0.8.3
+
+Sphinx==0.6.3
