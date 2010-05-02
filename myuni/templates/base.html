@@ -28,7 +28,7 @@
 					{% block navigation-primary-inner %}
 						{% if user.is_authenticated %}
 							<li class="first dashboard"><a href="{% url dashboard %}"><span>Dashboard</span></a></li> 
-							<li class="modules"><a href="{% url modules_module_list %}"><span>Modules</span></a></li>
+							<li class="modules"><a href="{% url course_module_list %}"><span>Modules</span></a></li>
 							<li class="coursework"><a href=""><span>Coursework <strong>1</strong></span></a></li> 
 							<li class="last people"><a href=""><span>People</span></a></li> 
 						{% endif %}

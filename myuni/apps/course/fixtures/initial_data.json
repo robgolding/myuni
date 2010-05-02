@@ -1,7 +1,7 @@
 [
   {
     "pk": 4, 
-    "model": "modules.moduledefinition", 
+    "model": "course.moduledefinition", 
     "fields": {
       "credits": 10, 
       "code": "G51APS", 
@@ -12,7 +12,7 @@
   }, 
   {
     "pk": 5, 
-    "model": "modules.moduledefinition", 
+    "model": "course.moduledefinition", 
     "fields": {
       "credits": 10, 
       "code": "G51CSA", 
@@ -23,7 +23,7 @@
   }, 
   {
     "pk": 33, 
-    "model": "modules.moduledefinition", 
+    "model": "course.moduledefinition", 
     "fields": {
       "credits": 10, 
       "code": "G51DBS", 
@@ -34,7 +34,7 @@
   }, 
   {
     "pk": 34, 
-    "model": "modules.moduledefinition", 
+    "model": "course.moduledefinition", 
     "fields": {
       "credits": 10, 
       "code": "G51FUN", 
@@ -45,7 +45,7 @@
   }, 
   {
     "pk": 6, 
-    "model": "modules.moduledefinition", 
+    "model": "course.moduledefinition", 
     "fields": {
       "credits": 10, 
       "code": "G51HOC", 
@@ -56,7 +56,7 @@
   }, 
   {
     "pk": 7, 
-    "model": "modules.moduledefinition", 
+    "model": "course.moduledefinition", 
     "fields": {
       "credits": 10, 
       "code": "G51IAI", 
@@ -67,7 +67,7 @@
   }, 
   {
     "pk": 35, 
-    "model": "modules.moduledefinition", 
+    "model": "course.moduledefinition", 
     "fields": {
       "credits": 10, 
       "code": "G51IRB", 
@@ -78,7 +78,7 @@
   }, 
   {
     "pk": 36, 
-    "model": "modules.moduledefinition", 
+    "model": "course.moduledefinition", 
     "fields": {
       "credits": 10, 
       "code": "G51ISE", 
@@ -89,7 +89,7 @@
   }, 
   {
     "pk": 8, 
-    "model": "modules.moduledefinition", 
+    "model": "course.moduledefinition", 
     "fields": {
       "credits": 10, 
       "code": "G51ISS", 
@@ -100,7 +100,7 @@
   }, 
   {
     "pk": 9, 
-    "model": "modules.moduledefinition", 
+    "model": "course.moduledefinition", 
     "fields": {
       "credits": 10, 
       "code": "G51MCS", 
@@ -111,7 +111,7 @@
   }, 
   {
     "pk": 1, 
-    "model": "modules.moduledefinition", 
+    "model": "course.moduledefinition", 
     "fields": {
       "credits": 10, 
       "code": "G51PRG", 
@@ -122,7 +122,7 @@
   }, 
   {
     "pk": 10, 
-    "model": "modules.moduledefinition", 
+    "model": "course.moduledefinition", 
     "fields": {
       "credits": 10, 
       "code": "G51SCI", 
@@ -133,7 +133,7 @@
   }, 
   {
     "pk": 37, 
-    "model": "modules.moduledefinition", 
+    "model": "course.moduledefinition", 
     "fields": {
       "credits": 10, 
       "code": "G51UST", 
@@ -144,7 +144,7 @@
   }, 
   {
     "pk": 38, 
-    "model": "modules.moduledefinition", 
+    "model": "course.moduledefinition", 
     "fields": {
       "credits": 10, 
       "code": "G51WPS", 
@@ -155,7 +155,7 @@
   }, 
   {
     "pk": 11, 
-    "model": "modules.moduledefinition", 
+    "model": "course.moduledefinition", 
     "fields": {
       "credits": 10, 
       "code": "G52ADS", 
@@ -166,7 +166,7 @@
   }, 
   {
     "pk": 39, 
-    "model": "modules.moduledefinition", 
+    "model": "course.moduledefinition", 
     "fields": {
       "credits": 10, 
       "code": "G52AFP", 
@@ -177,7 +177,7 @@
   }, 
   {
     "pk": 40, 
-    "model": "modules.moduledefinition", 
+    "model": "course.moduledefinition", 
     "fields": {
       "credits": 10, 
       "code": "G52AIM", 
@@ -188,7 +188,7 @@
   }, 
   {
     "pk": 12, 
-    "model": "modules.moduledefinition", 
+    "model": "course.moduledefinition", 
     "fields": {
       "credits": 10, 
       "code": "G52AIP", 
@@ -199,7 +199,7 @@
   }, 
   {
     "pk": 41, 
-    "model": "modules.moduledefinition", 
+    "model": "course.moduledefinition", 
     "fields": {
       "credits": 10, 
       "code": "G52ARB", 
@@ -210,7 +210,7 @@
   }, 
   {
     "pk": 42, 
-    "model": "modules.moduledefinition", 
+    "model": "course.moduledefinition", 
     "fields": {
       "credits": 10, 
       "code": "G52CCN", 
@@ -221,7 +221,7 @@
   }, 
   {
     "pk": 13, 
-    "model": "modules.moduledefinition", 
+    "model": "course.moduledefinition", 
     "fields": {
       "credits": 10, 
       "code": "G52CFJ", 
@@ -232,7 +232,7 @@
   }, 
   {
     "pk": 43, 
-    "model": "modules.moduledefinition", 
+    "model": "course.moduledefinition", 
     "fields": {
       "credits": 10, 
       "code": "G52CMP", 
@@ -243,7 +243,7 @@
   }, 
   {
     "pk": 44, 
-    "model": "modules.moduledefinition", 
+    "model": "course.moduledefinition", 
     "fields": {
       "credits": 10, 
       "code": "G52CON", 
@@ -254,7 +254,7 @@
   }, 
   {
     "pk": 45, 
-    "model": "modules.moduledefinition", 
+    "model": "course.moduledefinition", 
     "fields": {
       "credits": 10, 
       "code": "G52DOA", 
@@ -265,7 +265,7 @@
   }, 
   {
     "pk": 14, 
-    "model": "modules.moduledefinition", 
+    "model": "course.moduledefinition", 
     "fields": {
       "credits": 10, 
       "code": "G52DOC", 
@@ -276,7 +276,7 @@
   }, 
   {
     "pk": 2, 
-    "model": "modules.moduledefinition", 
+    "model": "course.moduledefinition", 
     "fields": {
       "credits": 20, 
       "code": "G52GRP", 
@@ -287,7 +287,7 @@
   }, 
   {
     "pk": 15, 
-    "model": "modules.moduledefinition", 
+    "model": "course.moduledefinition", 
     "fields": {
       "credits": 10, 
       "code": "G52GUI", 
@@ -298,7 +298,7 @@
   }, 
   {
     "pk": 46, 
-    "model": "modules.moduledefinition", 
+    "model": "course.moduledefinition", 
     "fields": {
       "credits": 10, 
       "code": "G52HCI", 
@@ -309,7 +309,7 @@
   }, 
   {
     "pk": 16, 
-    "model": "modules.moduledefinition", 
+    "model": "course.moduledefinition", 
     "fields": {
       "credits": 10, 
       "code": "G52HPA", 
@@ -320,7 +320,7 @@
   }, 
   {
     "pk": 47, 
-    "model": "modules.moduledefinition", 
+    "model": "course.moduledefinition", 
     "fields": {
       "credits": 10, 
       "code": "G52IVG", 
@@ -331,7 +331,7 @@
   }, 
   {
     "pk": 17, 
-    "model": "modules.moduledefinition", 
+    "model": "course.moduledefinition", 
     "fields": {
       "credits": 10, 
       "code": "G52IWS", 
@@ -342,7 +342,7 @@
   }, 
   {
     "pk": 18, 
-    "model": "modules.moduledefinition", 
+    "model": "course.moduledefinition", 
     "fields": {
       "credits": 10, 
       "code": "G52LSS", 
@@ -353,7 +353,7 @@
   }, 
   {
     "pk": 19, 
-    "model": "modules.moduledefinition", 
+    "model": "course.moduledefinition", 
     "fields": {
       "credits": 10, 
       "code": "G52MAL", 
@@ -364,7 +364,7 @@
   }, 
   {
     "pk": 20, 
-    "model": "modules.moduledefinition", 
+    "model": "course.moduledefinition", 
     "fields": {
       "credits": 10, 
       "code": "G52MC2", 
@@ -375,7 +375,7 @@
   }, 
   {
     "pk": 21, 
-    "model": "modules.moduledefinition", 
+    "model": "course.moduledefinition", 
     "fields": {
       "credits": 10, 
       "code": "G52NEC", 
@@ -386,7 +386,7 @@
   }, 
   {
     "pk": 48, 
-    "model": "modules.moduledefinition", 
+    "model": "course.moduledefinition", 
     "fields": {
       "credits": 10, 
       "code": "G52OBJ", 
@@ -397,7 +397,7 @@
   }, 
   {
     "pk": 49, 
-    "model": "modules.moduledefinition", 
+    "model": "course.moduledefinition", 
     "fields": {
       "credits": 10, 
       "code": "G53ACC", 
@@ -408,7 +408,7 @@
   }, 
   {
     "pk": 22, 
-    "model": "modules.moduledefinition", 
+    "model": "course.moduledefinition", 
     "fields": {
       "credits": 10, 
       "code": "G53AGR", 
@@ -419,7 +419,7 @@
   }, 
   {
     "pk": 50, 
-    "model": "modules.moduledefinition", 
+    "model": "course.moduledefinition", 
     "fields": {
       "credits": 10, 
       "code": "G53ASD", 
@@ -430,7 +430,7 @@
   }, 
   {
     "pk": 51, 
-    "model": "modules.moduledefinition", 
+    "model": "course.moduledefinition", 
     "fields": {
       "credits": 10, 
       "code": "G53BIO", 
@@ -441,7 +441,7 @@
   }, 
   {
     "pk": 52, 
-    "model": "modules.moduledefinition", 
+    "model": "course.moduledefinition", 
     "fields": {
       "credits": 10, 
       "code": "G53CFR", 
@@ -452,7 +452,7 @@
   }, 
   {
     "pk": 53, 
-    "model": "modules.moduledefinition", 
+    "model": "course.moduledefinition", 
     "fields": {
       "credits": 10, 
       "code": "G53COM", 
@@ -463,7 +463,7 @@
   }, 
   {
     "pk": 23, 
-    "model": "modules.moduledefinition", 
+    "model": "course.moduledefinition", 
     "fields": {
       "credits": 10, 
       "code": "G53DBC", 
@@ -474,7 +474,7 @@
   }, 
   {
     "pk": 54, 
-    "model": "modules.moduledefinition", 
+    "model": "course.moduledefinition", 
     "fields": {
       "credits": 10, 
       "code": "G53DDB", 
@@ -485,7 +485,7 @@
   }, 
   {
     "pk": 55, 
-    "model": "modules.moduledefinition", 
+    "model": "course.moduledefinition", 
     "fields": {
       "credits": 10, 
       "code": "G53DIA", 
@@ -496,7 +496,7 @@
   }, 
   {
     "pk": 56, 
-    "model": "modules.moduledefinition", 
+    "model": "course.moduledefinition", 
     "fields": {
       "credits": 10, 
       "code": "G53DSM", 
@@ -507,7 +507,7 @@
   }, 
   {
     "pk": 57, 
-    "model": "modules.moduledefinition", 
+    "model": "course.moduledefinition", 
     "fields": {
       "credits": 10, 
       "code": "G53ELC", 
@@ -518,7 +518,7 @@
   }, 
   {
     "pk": 58, 
-    "model": "modules.moduledefinition", 
+    "model": "course.moduledefinition", 
     "fields": {
       "credits": 10, 
       "code": "G53FSP", 
@@ -529,7 +529,7 @@
   }, 
   {
     "pk": 24, 
-    "model": "modules.moduledefinition", 
+    "model": "course.moduledefinition", 
     "fields": {
       "credits": 10, 
       "code": "G53GEM", 
@@ -540,7 +540,7 @@
   }, 
   {
     "pk": 3, 
-    "model": "modules.moduledefinition", 
+    "model": "course.moduledefinition", 
     "fields": {
       "credits": 40, 
       "code": "G53IDS", 
@@ -551,7 +551,7 @@
   }, 
   {
     "pk": 25, 
-    "model": "modules.moduledefinition", 
+    "model": "course.moduledefinition", 
     "fields": {
       "credits": 10, 
       "code": "G53KRR", 
@@ -562,7 +562,7 @@
   }, 
   {
     "pk": 59, 
-    "model": "modules.moduledefinition", 
+    "model": "course.moduledefinition", 
     "fields": {
       "credits": 10, 
       "code": "G53MIA", 
@@ -573,7 +573,7 @@
   }, 
   {
     "pk": 60, 
-    "model": "modules.moduledefinition", 
+    "model": "course.moduledefinition", 
     "fields": {
       "credits": 10, 
       "code": "G53NSC", 
@@ -584,7 +584,7 @@
   }, 
   {
     "pk": 26, 
-    "model": "modules.moduledefinition", 
+    "model": "course.moduledefinition", 
     "fields": {
       "credits": 10, 
       "code": "G53OPS", 
@@ -595,7 +595,7 @@
   }, 
   {
     "pk": 27, 
-    "model": "modules.moduledefinition", 
+    "model": "course.moduledefinition", 
     "fields": {
       "credits": 10, 
       "code": "G53ORO", 
@@ -606,7 +606,7 @@
   }, 
   {
     "pk": 61, 
-    "model": "modules.moduledefinition", 
+    "model": "course.moduledefinition", 
     "fields": {
       "credits": 10, 
       "code": "G53PAL", 
@@ -617,7 +617,7 @@
   }, 
   {
     "pk": 28, 
-    "model": "modules.moduledefinition", 
+    "model": "course.moduledefinition", 
     "fields": {
       "credits": 10, 
       "code": "G53POP", 
@@ -628,7 +628,7 @@
   }, 
   {
     "pk": 29, 
-    "model": "modules.moduledefinition", 
+    "model": "course.moduledefinition", 
     "fields": {
       "credits": 10, 
       "code": "G53QAT", 
@@ -639,7 +639,7 @@
   }, 
   {
     "pk": 30, 
-    "model": "modules.moduledefinition", 
+    "model": "course.moduledefinition", 
     "fields": {
       "credits": 10, 
       "code": "G53SEC", 
@@ -650,7 +650,7 @@
   }, 
   {
     "pk": 31, 
-    "model": "modules.moduledefinition", 
+    "model": "course.moduledefinition", 
     "fields": {
       "credits": 10, 
       "code": "G53SRP", 
@@ -661,7 +661,7 @@
   }, 
   {
     "pk": 32, 
-    "model": "modules.moduledefinition", 
+    "model": "course.moduledefinition", 
     "fields": {
       "credits": 10, 
       "code": "G53VIS", 
@@ -672,7 +672,7 @@
   },
   {
     "pk": 1, 
-    "model": "modules.module", 
+    "model": "course.module", 
     "fields": {
       "students": [], 
       "definition": 1, 
@@ -683,7 +683,7 @@
   }, 
   {
     "pk": 2, 
-    "model": "modules.module", 
+    "model": "course.module", 
     "fields": {
       "students": [], 
       "definition": 1, 

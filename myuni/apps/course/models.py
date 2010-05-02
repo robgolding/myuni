@@ -51,7 +51,7 @@ class Module(models.Model):
 	
 	@models.permalink
 	def get_absolute_url(self):
-		return ('modules_module_detail', [self.year, self.semester, self.definition.code])
+		return ('course_module_detail', [self.year, self.semester, self.definition.code])
 	
 	def __unicode__(self):
 		return '%s (%s %s)' % (self.definition.code, self.get_semester_display(), self.get_year_display())
@@ -59,3 +59,5 @@ class Module(models.Model):
 	class Meta:
 		unique_together = (('definition', 'year', 'semester'),)
 		get_latest_by = 'date_added'
+
+print Module
