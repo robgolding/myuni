@@ -5,6 +5,9 @@ class Campus(models.Model):
 	
 	def __unicode__(self):
 		return self.name
+	
+	class Meta:
+		verbose_name_plural = 'campuses'
 
 class Building(models.Model):
 	code = models.CharField(max_length=20, unique=True, db_index=True)
@@ -17,7 +20,7 @@ class Building(models.Model):
 class Room(models.Model):
 	code = models.CharField(max_length=20, unique=True, db_index=True)
 	building = models.ForeignKey(Building)
-	name = modle.CharField(max_length=50)
+	name = models.CharField(max_length=50)
 	
 	def __unicode__(self):
 		return self.name
