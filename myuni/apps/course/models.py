@@ -44,8 +44,6 @@ class Module(models.Model):
 	convener = models.ForeignKey('auth.User', related_name='modules_convened')
 	students = models.ManyToManyField('auth.User', blank=True, related_name='modules_taken')
 	
-	date_added = models.DateTimeField(auto_now_add=True)
-	
 	def _get_definition_property(self, property):
 		return self.definition.__getattribute__(property)
 	
