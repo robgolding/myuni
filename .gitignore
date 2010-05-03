@@ -2,3 +2,5 @@
 myuni/dev.db
 myuni/local_settings.py
 myuni.egg-info
+docs/_build
+fabfile.py
