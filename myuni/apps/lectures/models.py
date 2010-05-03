@@ -8,7 +8,7 @@ class LectureManager(models.Manager):
 		return qs[0] if qs else None
 
 class Lecture(models.Model):
-	module = models.ForeignKey('course.Module')
+	module = models.ForeignKey('course.Module', related_name='lectures')
 	room = models.ForeignKey('campus.Room')
 	given_at = models.DateTimeField()
 	number = models.PositiveIntegerField(editable=False, null=True)
