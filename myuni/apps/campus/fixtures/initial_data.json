@@ -1,0 +1,27 @@
+[
+  {
+    "pk": 1, 
+    "model": "campus.campus", 
+    "fields": {
+      "name": "Jubilee Campus"
+    }
+  }, 
+  {
+    "pk": 1, 
+    "model": "campus.building", 
+    "fields": {
+      "code": "JC-EXCH", 
+      "campus": 1, 
+      "name": "Exchange Building"
+    }
+  }, 
+  {
+    "pk": 1, 
+    "model": "campus.room", 
+    "fields": {
+      "building": 1, 
+      "code": "JC-EXCH-LT1", 
+      "name": "Lecture Theatre 1"
+    }
+  }
+]

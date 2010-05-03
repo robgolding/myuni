@@ -1,0 +1,22 @@
+[
+  {
+    "pk": 1, 
+    "model": "lectures.lecture", 
+    "fields": {
+      "given_at": "2010-05-04 13:00:00", 
+      "room": 1, 
+      "module": 2, 
+      "number": 1
+    }
+  }, 
+  {
+    "pk": 2, 
+    "model": "lectures.lecture", 
+    "fields": {
+      "given_at": "2010-05-11 13:00:00", 
+      "room": 1, 
+      "module": 2, 
+      "number": 2
+    }
+  }
+]
