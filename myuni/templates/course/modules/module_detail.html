@@ -10,4 +10,18 @@
 	<div class="block">
 		<h3>{{ object.code }}: {{ object.name }}, {{ object.get_semester_display|default:"Full-year" }} {{ object.get_year_display }}</h3>
 	</div>
+
+	<div class="block">
+		<h3>Lectures</h3>
+
+		{% if object.lectures.all %}
+			<ul>
+			{% for lecture in object.lectures.all %}
+				<li>{{ lecture }}</li>
+			{% endfor %}
+			</ul>
+		{% else %}
+			<p>No lecture for {{ object.code }}.</p>
+		{% endif %}
+	</div>
 {% endblock content-block %}
