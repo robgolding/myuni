@@ -39,7 +39,7 @@ for dirpath, dirnames, filenames in os.walk(myuni_dir):
 		data_files.append([dirpath, [os.path.join(dirpath, f) for f in filenames]])
 
 version = __import__('myuni').get_version()
-if u'hg' in version:
+if u'r' in version:
 	version = ' '.join(version.split(' ')[:-1])
 
 setup(

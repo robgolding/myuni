@@ -12,5 +12,5 @@ def get_version():
 	from myuni.utils.version import get_hg_revision
 	hg_rev = get_hg_revision()
 	if hg_rev != u'unknown':
-		version = '%s hg-%s' % (version, hg_rev)
+		version = '%s r%s' % (version, hg_rev)
 	return version
