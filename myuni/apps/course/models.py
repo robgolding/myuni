@@ -59,5 +59,3 @@ class Module(models.Model):
 	class Meta:
 		unique_together = (('definition', 'year', 'semester'),)
 		get_latest_by = 'date_added'
-
-print Module
