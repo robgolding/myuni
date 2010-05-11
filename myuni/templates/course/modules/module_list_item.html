@@ -1,0 +1,4 @@
+{% ifchanged module.year %}
+	<h3>{{ module.get_year_display }}</h3>
+{% endifchanged %}
+<li><a href="{{ module.get_absolute_url }}">{{ module.code }}: {{ module.name }}</a></li>
