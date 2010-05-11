@@ -15,6 +15,7 @@ urlpatterns = patterns('',
 	
 	url(r'^dashboard/', include('myuni.apps.dashboard.urls')),
     url(r'^', include('myuni.apps.course.urls')),
+	url(r'^people/', include('myuni.apps.people.urls')),
 
 	url(r'^accounts/', include('registration.urls')),
 	

@@ -1,0 +1,13 @@
+{% extends 'people/base.html' %}
+
+{% block page-title-inner %}People{% endblock page-title-inner %}
+
+{% block header-block %}{% endblock header-block %}
+
+{% block content-block %}
+    {% for person in object_list %}
+	<div class="block">
+		<h3><a href="{{ person.get_profile.get_absolute_url }}">{{ person.get_profile.get_full_name }}</a></h3>
+	</div>
+    {% endfor %}
+{% endblock content-block %}

@@ -1,0 +1,25 @@
+{% extends 'people/base.html' %}
+
+{% block page-title-inner %}{{ profile.get_full_name }} <small>({{ profile.user.username }})</small>{% endblock page-title-inner %}
+
+{% block header-block %}{% endblock header-block %}
+
+{% block content-block %}
+	<div class="block">
+		<h3>{{ profile.get_full_name }}'s Profile</h3>
+		
+		<h2>Modules Taken</h2>
+		{% with profile.user.modules_taken.all as modules %}
+		{% if modules %}
+			<ul>
+			{% for module in modules %}
+				{% ifchanged module.year %}
+					<h4>{{ module.get_year_display }}</h4>
+				{% endifchanged %}
+				<li><a href="{{ module.get_absolute_url }}">{{ module.code }}: {{ module.name }}</a></li>
+			{% endfor %}
+			</ul>
+		{% endif %}
+		{% endwith %}
+	</div>
+{% endblock content-block %}

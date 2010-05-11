@@ -100,7 +100,10 @@ INSTALLED_APPS = (
     'myuni.apps.course',
     'myuni.apps.campus',
     'myuni.apps.lectures',
+    'myuni.apps.people',
 )
 
 STATIC_ROOT = os.path.join(PATH, 'static')
 STATIC_URL = '/media/'
+
+AUTH_PROFILE_MODULE = 'people.Profile'
