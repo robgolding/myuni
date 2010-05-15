@@ -32,10 +32,10 @@ class ModuleDefinition(models.Model):
 		ordering = ['code', 'name']
 
 class Module(models.Model):
-	code    =	property(lambda s: s._get_definition_property('code'))
-	name    =	property(lambda s: s._get_definition_property('name'))
-	credits =	property(lambda s: s._get_definition_property('credits'))
-	level   =	property(lambda s: s._get_definition_property('level'))
+	code    =	property(lambda s: s.definition.code)
+	name    =	property(lambda s: s.definition.name)
+	credits =	property(lambda s: s.definition.credits)
+	level   =	property(lambda s: s.definition.level)
 	
 	definition = models.ForeignKey('ModuleDefinition')
 	semester = models.CharField(max_length=20, choices=SEMESTER_CHOICES)
@@ -44,15 +44,12 @@ class Module(models.Model):
 	convener = models.ForeignKey('auth.User', related_name='modules_convened')
 	students = models.ManyToManyField('auth.User', blank=True, related_name='modules_taken')
 	
-	def _get_definition_property(self, property):
-		return self.definition.__getattribute__(property)
-	
 	@models.permalink
 	def get_absolute_url(self):
 		return ('course_module_detail', [self.year, self.semester, self.definition.code])
 	
 	def __unicode__(self):
-		return '%s (%s %s)' % (self.definition.code, self.get_semester_display(), self.get_year_display())
+		return '%s (%s %s)' % (self.code, self.get_semester_display(), self.get_year_display())
 	
 	class Meta:
 		unique_together = (('definition', 'year', 'semester'),)
