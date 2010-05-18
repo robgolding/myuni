@@ -6,8 +6,12 @@ from settings import *
 SERVE_MEDIA = True
 PATH = os.path.abspath(os.path.dirname(__file__))
 
-DATABASE_ENGINE = 'sqlite3'
-DATABASE_NAME = os.path.join(PATH, 'dev.db')
+DATABASES = {
+	'default': {
+		'ENGINE': 'sqlite3',
+		'NAME': os.path.join(PATH, 'dev.db'),
+	}
+}
 
 # For debug toolbar.
 MIDDLEWARE_CLASSES += ('debug_toolbar.middleware.DebugToolbarMiddleware',)

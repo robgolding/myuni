@@ -8,7 +8,7 @@
 
 {% block content-block %}
 	<div class="block">
-		<form action="" method="post">
+		<form action="" method="post">{% csrf_token %}
 			<input type="hidden" name="next" value="{% url dashboard %}" />
 			{% for field in form %}
 				{% if field.is_hidden %}
