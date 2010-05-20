@@ -10,3 +10,7 @@ DATABASES = {
 		'NAME': os.path.join(PATH, 'test.db'),
 	}
 }
+
+import random, string
+
+SECRET_KEY = ''.join([random.choice(string.letters+string.digits) for i in range(30))]

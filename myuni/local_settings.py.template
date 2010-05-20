@@ -19,3 +19,7 @@ INSTALLED_APPS += ('debug_toolbar',)
 DEBUG_TOOLBAR_CONFIG = {
 	'INTERCEPT_REDIRECTS': False,
 }
+
+# It's good to use a long random string for the SECRET_KEY
+# (see example in test_settings.py)
+SECRET_KEY = ''
