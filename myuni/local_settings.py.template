@@ -1,7 +1,6 @@
 import os
 
-LOCAL_SETTINGS = True
-from settings import *
+from default_settings import *
 
 SERVE_MEDIA = True
 PATH = os.path.abspath(os.path.dirname(__file__))
