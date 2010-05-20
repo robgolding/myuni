@@ -29,7 +29,7 @@ class Profile(models.Model):
 	
 	@models.permalink
 	def get_absolute_url(self):
-		return ('people_user_detail', [self.user.username])
+		return ('people_profile_detail', [self.user.username])
 	
 	def __unicode__(self):
 		return '[Profile] %s' % self.get_full_name()
