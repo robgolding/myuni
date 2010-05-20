@@ -13,4 +13,4 @@ DATABASES = {
 
 import random, string
 
-SECRET_KEY = ''.join([random.choice(string.letters+string.digits) for i in range(30))]
+SECRET_KEY = ''.join([random.choice(string.letters+string.digits) for i in range(30)])
