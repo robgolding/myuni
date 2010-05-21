@@ -1,4 +1,4 @@
-{% extends 'course/modules/base.html' %}
+{% extends 'course/module_base.html' %}
 
 {% block page-title-inner %}All Modules <small>(<a href="{% url course_module_list %}">view yours</a>){% endblock page-title-inner %}
 
@@ -8,7 +8,7 @@
 	<div class="block">
 		<ul>
 		{% for module in object_list %}
-			{% include 'course/modules/module_list_item.html' %}
+			{% include 'course/module_list_item.html' %}
 		{% endfor %}
 		</ul>
 	</div>
