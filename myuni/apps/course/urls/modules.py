@@ -1,9 +1,9 @@
 from django.conf.urls.defaults import *
 
-from models import Module
-import views
+from myuni.apps.course.models import Module
+from myuni.apps.course import views
 
-module_urls = patterns('',
+urlpatterns = patterns('',
 	
 	url(r'^$', views.module_list, {'template_name': 'course/modules/module_list.html'}, name='course_module_list'),
 	
@@ -11,8 +11,4 @@ module_urls = patterns('',
 	
 	url(r'^(?P<year>[0-9-]+)/(?P<semester>[\w-]+)/(?P<module_code>\w+)/$', views.module_detail, {'template_name': 'course/modules/module_detail.html'}, name='course_module_detail'),
 	
-)
-
-urlpatterns = patterns('',
-	url(r'^modules/', include(module_urls)),
 )

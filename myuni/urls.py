@@ -11,7 +11,7 @@ urlpatterns = patterns('',
 	url(r'^colophon/$', 'myuni.apps.core.views.colophon', {'template': 'colophon.html'}, name="colophon"),
 	
 	url(r'^dashboard/', include('myuni.apps.dashboard.urls')),
-    url(r'^', include('myuni.apps.course.urls')),
+    url(r'^modules/', include('myuni.apps.course.urls.modules')),
 	url(r'^people/', include('myuni.apps.people.urls')),
 
 	url(r'^accounts/', include('registration.urls')),
